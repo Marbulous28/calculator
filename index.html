@@ -1,11 +1,29 @@
 <!DOCTYPE html>
   <html>
     <head>
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text">
+      <link href="css/my.css" rel="stylesheet" type="text">
       <script src="js/jquery-1.12.2.js"></script>
       <script src="js/script.js"></script>
       <title>Calculator</title>
     </head>
     <body>
-      <h1>Calculator</h1>
+      <div class="container">
+        <h1>Calculator</h1>
+        <form id="add">
+          <div class="form-group">
+            <label for="add1">1st number:</label>
+            <input id="add1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="add2">1st number:</label>
+            <input id="add2" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">ADD!</button>
+        </form>
+        <div id="output">
+
+        </div>
+      </div>
     </body>
   </html>

@@ -1,0 +1,20 @@
+#letter{
+  display: none;
+  background-color: #eff0e6;
+  border: 2px solid #231F20;
+  padding: 15px;
+  margin: 5px 300px;
+  border-radius: 3px;
+}
+
+#letter p{
+  font-family: cursive;
+}
+
+#letter h4{
+  margin: 20px 0px;
+}
+.cursive{
+  font-family: cursive;
+  font-size:200%;
+}
